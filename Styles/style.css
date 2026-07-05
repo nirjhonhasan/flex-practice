@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* navbar design is started from here */
+/* navbar design is started from here */
+/* navbar design is started from here */
+nav{
+    background: linear-gradient(135deg, #2C62E2, #0d3183);
+    height: 80px;
+    padding: 0 10%;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+}
