@@ -7,6 +7,8 @@
 
 
 
+
+
 /* navbar design is started from here */
 /* navbar design is started from here */
 /* navbar design is started from here */
@@ -64,6 +66,8 @@ nav button:hover{
     box-shadow: 0px 0px 50px #facc028c;
     background: yellow;
 }
+
+
 
 
 
@@ -158,6 +162,10 @@ span{
 
 
 
+/* pricing cart style starts from here */
+/* pricing cart style starts from here */
+/* pricing cart style starts from here */
+/* pricing cart style starts from here */
 .pricing-cat{
     min-height: 100vh;
     background: rgb(50, 50, 50);
@@ -233,11 +241,6 @@ span{
     border-radius: 15px;
     color: tomato;
 }
-
-
-
-
-
 
 
 
