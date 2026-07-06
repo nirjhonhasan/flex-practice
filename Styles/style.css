@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -155,3 +156,92 @@ span{
 
 
 
+
+
+.pricing-cat{
+    min-height: 100vh;
+    background: rgb(50, 50, 50);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.pricing-cat h1{
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.all-Carts{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    gap: 20px;
+}
+.cart{
+    min-height: 600px;
+    background: rgb(85, 85, 85);
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.cartTitle{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.priceInfo{
+    display: flex;
+}
+.priceInfo p{
+    color: gray;
+}
+.priceInfo .priceNumber{
+    font-size: 4rem;
+    color: white;
+}
+.priceInfo span{
+    font-size: 1rem;
+    color: lightgray;
+
+}
+.cart h4{
+    color: white;
+    size: 1.7rem;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.cart button{
+    margin: 20px 20px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+.cart .current-btn{
+    background: transparent;
+    border: 1px solid rgb(108, 108, 108);
+    color: white;
+}
+
+.cartTitle p{
+    background: rgba(241, 80, 0, 0.147);
+    padding: 5px 15px;
+    border: 1px solid tomato;
+    border-radius: 15px;
+    color: tomato;
+}
+
+
+
+
+
+
+
+
+.active{
+    background: rgba(0, 0, 255, 0.153);
+    border: 1px solid blue;
+}
